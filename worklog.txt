@@ -1,0 +1,78 @@
+I found three ST folders. The first one in the 500GB HDD has 652 patient files, the second one in the STNDATA2/PATIENT DETAILS has 645 patient files and the last one in STNDATA2/DONE_ST has 642 patient files.
+
+Comparing the 500GB HDD ST files with the 1TB STNDATA2/PATIENT DETAILS/ST, there have been (652-645 i.e 7 files) which are not in the 1TB STNDATA2/PATIENT DETAILS/ST. Six out of this files are not moved from the 500GB HDD ST files (because they were empty), the files are:
+ST0721
+ST0790
+ST1461
+ST1721
+ST1725
+ST1862
+and a new file which is now in the 1TB STNDATA2/PATIENT DETAILS/ST, which is:
+ST3455.
+Comparing ST and DONE_ST in the 1TB HDD.
+There are (645-642 i.e 3) files that are now in the ST_DONE file.
+This particular patient file mix-up is a bit complicated so kindly take your time to read what's next.
+I found two new files in DONE_ST that are not in ST. They are:
+ST3066 - Fixed: Renaming issue.
+ST3190 - It is an empty folder so it was ommitted.
+And also, there were two files that are in DONE_ST that are not in ST. They are:
+ST3174 -Fixed
+ST3282 -Fixed
+
+Renaming all the files in DONE_SNHSTAFFBS: Removing all the spaces: Instead of "ST. 0525 POPOOLA RONKE", it becomes "ST0525 POPOOLA RONKE".
+
+All the files in the 1TB/Archive files needs to be renamed. E.g, 21123
+Class RenFile.java and FileIter.java are breaking. Fixed
+
+There are three empty files in 1TB/Archive, they are:
+20520 NDABAI EDITH
+23669 OJIGBO SAMMY J
+34527 AKINOLA OLUSEYE O
+I moved them all to EmptyArchives.
+I found out that 34527 has another file there with the same name and having documents with the same name.
+
+I moved 1TB/Archive files into ToDo for path reasons.
+I want to rename all the files(1681) in Archive. -Done
+When I was renaming, I found one ST file in there, which is:
+ST820 Abass Mojisola
+I moved the ST file to G:\STNDATA2\PATIENT DETAILS\ST.
+N.B: The STFile ST820 needs to be edited.
+All the Archive files needs to be edited
+
+In the Active files, all the files there have been vouched to be OK(the info, my source). There exists two files that are ST files. I'll want to compare them both. 
+Looking for files in DONE_ST that are in DONE_SNHSTAFFBS
+ST3228. In the DONE_SNHSTAFFBS, it contains 10 pages of clerking sheet, and it's content was updated in the DONE_ST files to contain 11 pages of clerking sheet and from 3 pages of drug sheets to 4 pages of drug sheets. The lab wasn't updated.
+I'm deleting the one in DONE_SNHSTAFFBS
+Looking for files in DONE_SNHSTAFFBS that are in DONE_ST
+No conflicting files were found
+I'm comparing the contents of 1TB\STNDATA2\PATIENT DETAILS\DONE_ST with G:\Active files\DONE_ST.
+ST3174 OLOMOFE CHARLES TOPE is not in G:\Active files\DONE_ST. I've copied ST3174 to G:\Active files\DONE_ST. They both contain identical files now.
+I want to look for the Active files in OKAY UPLOAD
+6547 Active files are already present in OKAY UPLOAD
+I want to look for Archive files in OKAY UPLOAD
+0006
+21168:Needs to see Oga
+22666:Needs to see Oga
+25982:Needs to see Oga
+26114:Needs to see Oga
+26169:Needs to see Oga
+26172:Needs to see Oga
+26219:Needs to see Oga
+26232:Needs to see Oga
+26440
+26689
+34521
+34583
+34759
+34866
+34884
+34888
+35046
+35177
+35265
+35343
+35434
+35510
+35757
+35794
+All this documents contain different clerking sheets but for the same person. A different file was opened for them during the Active file.
