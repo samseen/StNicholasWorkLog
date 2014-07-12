@@ -45,8 +45,9 @@ ST3228. In the DONE_SNHSTAFFBS, it contains 10 pages of clerking sheet, and it's
 I'm deleting the one in DONE_SNHSTAFFBS
 Looking for files in DONE_SNHSTAFFBS that are in DONE_ST
 No conflicting files were found
-I'm comparing the contents of 1TB\STNDATA2\PATIENT DETAILS\DONE_ST with G:\Active files\DONE_ST.
-ST3174 OLOMOFE CHARLES TOPE is not in G:\Active files\DONE_ST. I've copied ST3174 to G:\Active files\DONE_ST. They both contain identical files now.
+I'm comparing the contents of 1TB\STNDATA2\PATIENT DETAILS\DONE_ST with 1TB\Active files\DONE_ST.
+ST3174 OLOMOFE CHARLES TOPE is not in 1TB:\Active files\DONE_ST. I've copied ST3174 to G:\Active files\DONE_ST. They both contain identical files now.
+
 I want to look for the Active files in OKAY UPLOAD
 6547 Active files are already present in OKAY UPLOAD
 I want to look for Archive files in OKAY UPLOAD
@@ -76,4 +77,14 @@ I want to look for Archive files in OKAY UPLOAD
 35757
 35794
 All this documents contain different clerking sheets but for the same person. A different file was opened for them during the Active file.
-Redundant strings....
+
+I want to compare the Archive files in 1TB with 1TB/STNDATA2/PATIENTDETAILS/ARCHIVE
+Looking for Archive files in 1TB/STNDATA2/PATIENTDETAILS/ARCHIVE - None of it(i.e 1TB/Archive files were found in STNDATA2/PATIENTDETAILS/ARCHIVE)
+Looking for 1TB/STNDATA2/PATIENTDETAILS/ARCHIVE in 1TB Archive files - None of it(i.e 1TB/STNDATA2/PATIENTDETAILS/ARCHIVE was found in 1TB/Archive files)
+Looking for Archive files in 1TB/STNDATA2/PATIENTDETAILS/ARCHIVENIGHT - None of it was found
+Looking for 1TB/STNDATA2/PATIENTDETAILS/ARCHIVENIGHT in Archive files - None of it was found
+
+1TB/Archive is a very special case of files that needs to be edited on it's own as none of it's casenote was not found elsewhere. I think it was the Job that they did when I left for school.
+
+I want to check if Elements/Previous Files/Contained is already in Active Files - No, it is not in Active files
+I want to check if Elements/Previous Files/Contained is already in Archive - Yes, it's already in Archive and they need to be worked on.
